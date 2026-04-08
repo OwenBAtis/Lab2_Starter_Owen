@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>April8_Lab2</title>
+        <meta name="CSE110MeetingMinutesLab">
+        <link rel="icon" sizes="32x32" href="DecepticonIcon.png" type="image/png"/>
+    </head>
+    <body>
+        <header>
+            <div class="main-container">Sections</div>
+            <nav>
+                <ul>
+                    <li><a href="#Title">Title</a></li>
+                    <li><a href="#Form">Form</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr />
+        <main>
+            <section>
+                <h1 id="Title">Transformers Watch List</h1>
+                <h3>Date of Meeting: April 11, 2026</h3>
+                <p>
+                    <strong>Goal:</strong> 
+                    <br>
+                    Watch party is trying to complete <i>all</i> Transformers Movies by the end of the Quarter. 
+                    <br>
+                    All <b>Meetings</b> have been held on Saturdays at <em>3:00 PM</em>
+                </p>
+                <h2>Attendees</h2>
+                <ol>
+                    <li>Charlie</li>
+                    <li>Sari</li>
+                    <li>Noah</li>
+                    <li>Jack</li>
+                    <li>Miko</li>
+                    <li>Raphael</li>
+                </ol>
+                <h2>Agenda</h2>
+                <p>
+                    Current plan is to complete watching through <a href="https://www.google.com/search?q=transformers+age+of+extinction&rlz=1C1VDKB_enUS1125US1125&oq=transformers+age+of&gs_lcrp=EgZjaHJvbWUqEwgAEAAYkQIY4wIYsQMYgAQYigUyEwgAEAAYkQIY4wIYsQMYgAQYigUyEAgBEC4YkQIYsQMYgAQYigUyDQgCEAAYkQIYgAQYigUyBggDEEUYOTIHCAQQABiABDINCAUQABiDARixAxiABDIHCAYQABiABDIGCAcQRRg90gEJMTMxMjBqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Transformers: Age of Extinction</a>
+                    <br>
+                    Afterwards, the plan is then to complete the next 1 or 2 movies on the list by the end of the day. 
+                </p>
+                <h3>Uncompleted Movies:</h3>
+                <ul>
+                    <li>Transformers: The Last Knight</li>
+                    <li>Bumblebee: A Transformers Story</li>
+                    <li>Transformers: Rise of the Beast</li>
+                </ul>
+                <h3>Additional Details</h3>
+                <details>
+                    <summary>Unfinished Business: Deliberation on TLK</summary>
+                    Current Deliberations are being made on whether to watch or skip The Last Knight due to how bad Age of Extinction has been. <em>(Even if we haven't finished AOE yet, it's that bad rn.)</em>
+                </details>
+                <details>
+                    <summary>Current Tier List of Movies</summary>
+                    <img width="700" src="TFTierList.png" alt="Insert Image of Tier List Here."/>
+                </details>
+            </section>
+            <hr />
+            <section>
+                <h1>Trivial Video and Audio Section</h1>
+                <h2>Video</h2>
+                <video controls width = "600">
+                    <source src="XbXVideo.mp4" type="video/mp4"/>
+                </video>
+                <h2>Audio</h2>
+                <figure>
+                <figcaption>METAL PIPE</figcaption>
+                <audio controls src="Metal pipe.mp3"></audio>
+                <a href="Metal pipe.mp3">Download Audio</a>
+                </figure>
+            </section>
+            <hr />
+            <section>
+                <h1 id="Form">Form</h1>
+                <form action="" method="get">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name= "name" id="name" required/>
+                    </div>
+                    <div>
+                        <fieldset>
+                            <legend>Choose a Transformer</legend>
+                            <input type="radio" id="Optimus" name="Transformer" value="OP"/>
+                            <label for="Optimus">Optimus Prime</label>
+                            <input type="radio" id="Megs" name="Transformer" value="M"/>
+                            <label for="Megs">Megatron</label>
+                            <input type="radio" id="Sentinel" name="Transformer" value="SP"/>
+                            <label for="Sentinel">Sentinel Prime</label>
+                        </fieldset>
+                    </div>
+                    <div>
+                        <label for="Desc">Give a short response on why your favorite character is your favorite character.</label>
+                        <textarea id="Desc" name="Desc" rows = "4" cols="40">Insert Description Here</textarea>
+                    </div>
+                    <div>
+                        <label for="faction">Choose a faction</label>
+                        <input list="factions" id="choice" name="choice"/>
+                        <datalist id="factions">
+                            <option value="Autobot"></option>
+                            <option value="Decepticon"></option>
+                            <option value="Bounty Hunter"></option>
+                        </datalist>
+                    </div>
+                    <div>
+                        <label for="alt-form">Choose an Alt Form:</label>
+                        <select name="vehicles" id="alt-form">
+                            <option value="">--Choose--</option>
+                            <option value="car">Car</option>
+                            <option value="truck">Truck</option>
+                            <option value="plane">Plane</option>
+                            <option value="sea">Sea</option>
+                            <option value="creature">Creature</option>
+                        </select>
+                    </div>
+                    <button class="complete" type="button">Complete</button>
+                </form>
+            </section>
+        </main>
+        <hr />
+        <footer>
+            <div>Owen Atis for CSE110</div>
+        </footer>
+    </body>
+</html>
